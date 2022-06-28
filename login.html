@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login.html</title>
+<!--폰트어썸-->
+<script src="https://kit.fontawesome.com/a7ae424469.js" crossorigin="anonymous"></script>
+<!--외부정의-->
+<link href="login.css" rel="stylesheet">
+<!--제이쿼리 라이브러리-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <div class="sideBar">
+    <div id="sideBar_menu1">
+      <ul id="unlist_menu1">
+        <li id="black"><a href="#">SHOP</a></li>
+        <li><a href="#" class="unlist_color">ALL</a></li>
+        <li><a href="outer.html" class="unlist_color">OUTER</a></li>
+        <li><a href="top.html" class="unlist_color">TOP</a></li>
+        <li><a href="#" class="unlist_color">BOTTOM</a></li>
+        <li><a href="acc.html" class="unlist_color">ACC</a></li>
+        <li><a href="exclusive.html" class="unlist_color">EXCLUSIVE</a></li>
+        <li id="red"><a href="#">COLLECTIVE</a></li>
+      </ul>
+    </div>
+    <div id="sideBar_menu2">
+      <ul id="unlist_menu2">
+        <li><a href="#">COLLECTION</a></li>
+        <li><a href="#">ARCHIVE</a></li>
+        <li><a href="#">STOCKISTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">FOLLOW US</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--헤더-->
+  <header>
+    <div class="wrap">
+      <!--햄버거버튼-->
+      <div class="hamburger-button">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <!--로고-->
+      <div class="logo">
+        <a href="index.html"><img src="images/ms-logo.png" alt="logo"></a>
+      </div>
+      <!--로그인-->
+      <ul class="login-button">
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="#">CART</a></li>
+        <li id="search"><a href="#" class="searchclick" id ="searchclick">SEARCH</a></li>
+        <li class="selectBox">
+          <button class="label" type="button">언어선택 <i class="fa-solid fa-chevron-down"></i></button>
+          <ul class="optionList">
+              <li class="optionItem">KOREAN<img src="images/ko_KR_18x12.png" alt="태극기"></li>
+              <li class="optionItem">ENGLISH<img src="images/en_US_18x12.png" alt="성조기"></li>
+              <li class="optionItem">JAPANESE<img src="images/ja_JP_18x12.png" alt="일장기"></li>
+              <li class="optionItem">CHINESE<img src="images/zh_CN_18x12.png" alt="오성홍기"></li>
+          </ul>
+        </li>
+      </ul>
+      <div id="topsearchline">
+        <input type="text" id="topsearchbar">
+        <img src="images/ms-close.png" alt="" id="imgclose">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="main">
+      <form>
+        <div id="inputbox1"><input type="text" placeholder="아이디"></div>
+        <div id="inputbox2"><input type="password" placeholder="패스워드"></div>
+      </form>
+      <div id="loginbox">
+        <input id ="check" type="checkbox">
+        <label for="check"><img id="checkimg" src="images/bg_checkbox.png" alt="checkbox"></label>
+        <label for="check"><span id="checktext">로그인 상태 유지</span></label>
+      </div>
+      <div id="loginbutton">
+        <button>로그인</button>
+      </div>
+      <div id="logintext">
+        <ul>
+          <li class="centerline"><a href="#" class="login_hover_underline">회원가입</a></li>
+          <li><a href="#" class="login_hover_underline">아이디찾기</a></li>
+        </ul>
+        <ul>
+          <li class="centerline"><a href="#" class="login_hover_underline">비밀번호찾기</a></li>
+          <li><a href="#" class="login_hover_underline">비회원주문</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!--푸터-->
+  <div class="footer">
+    <div class="footer-contents">
+      <!--sns아이콘-->
+      <div class="sns-contents">
+        <ul class="sns">
+          <li>
+            <a href="https://www.instagram.com/mschfhouse">
+              <img src="images/instagram.png" alt="instagram">
+            </a>
+          </li>
+          <li>
+            <a href="https://ko-kr.facebook.com/mischiefhouse">
+              <img src="images/facebook.png" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/kakaotalk.png" alt="kakaotalk">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--텍스트-->
+      <div class="txt">
+        <p>
+          <a href="#">
+            주식회사 미스치프 | 대표 정지윤, 서지은 | 사업자번호 187-88-00436 | 통신판매업 2016-서울강남-03549 | © 2010-2019 MISCHIEF.
+          </a>
+        </p>
+        <p>
+          <a href="#">
+            본사 서울시 강남구 선릉로157길 24, 4층 | +82 70-4643-1992 | CUSTOMER@MISCHIEF.CO.KR | 호스팅 카페24(주)
+          </a> 
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--탑버튼-->
+  <button class="top-button" type="button">TOP</button>
+  <!--custom.js-->
+  <script src="js/custom.js"></script>
+</body>
+</html>
